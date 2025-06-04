@@ -3,7 +3,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Nicole Hendah',
-  description: 'Created with v0Recent Graduate | Aspiring Professional | Passionate Learner',
+  description: 'Recent Graduate | Aspiring Professional | Passionate Learner',
 }
 
 export default function RootLayout({
