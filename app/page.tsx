@@ -77,7 +77,7 @@ export default function HomePage() {
               transition={{ delay: 0.6 }}
               className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed"
             >
-              Recent Graduate | Aspiring Professional | Passionate Learner
+              Digital marketing strategist | Aspiring Professional | Passionate Learner
             </motion.p>
 
             <motion.div
@@ -86,17 +86,16 @@ export default function HomePage() {
               transition={{ delay: 0.8 }}
               className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
             >
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
+              <a href="/NicoleHendah.pdf"
+                className="px-4 flex justify-center items-center py-2 rounded-sm bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700"
               >
                 <Download className="w-4 h-4 mr-2" />
                 Download CV
-              </Button>
-              <Button variant="outline" size="lg">
+              </a>
+              <a href="mailto:nicholehendah@gmail.com" className="px-4 flex justify-center items-center py-2 rounded-sm bg-white border-gray-200 border-2 ">
                 <Mail className="w-4 h-4 mr-2" />
                 Get In Touch
-              </Button>
+              </a>
             </motion.div>
 
             <SocialLinks />
@@ -528,15 +527,39 @@ export default function HomePage() {
               <CardContent className="p-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="space-y-6">
-                    <div className="flex items-center gap-4">
+                    {/* <div className="flex items-center gap-4">
                       <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
                         <Mail className="w-6 h-6 text-purple-600" />
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Email</h4>
                         <p className="text-gray-600">nicholehendah@gmail.com</p>
+
+                      </div>
+                      
+                    </div> */}
+
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                        <Mail className="w-6 h-6 text-purple-600" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900">Email</h4>
+                        <a href="mailto:nicholehendah@gmail.com" className="text-gray-600 hover:underline">
+                          nicholehendah@gmail.com
+                        </a>
                       </div>
                     </div>
+
+                    {/* <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center">
+                        <Phone className="w-6 h-6 text-pink-600" />
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900">Phone</h4>
+                        <p className="text-gray-600">+447399656211</p>
+                      </div>
+                    </div> */}
 
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center">
@@ -544,7 +567,9 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Phone</h4>
-                        <p className="text-gray-600">+447399656211</p>
+                        <a href="tel:+447399656211" className="text-gray-600 hover:underline">
+                          +447399656211
+                        </a>
                       </div>
                     </div>
 
@@ -560,15 +585,16 @@ export default function HomePage() {
                   </div>
 
                   <div className="space-y-4">
-                    <Button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
+
+                    <a href="mailto:nicholehendah@gmail.com" className="w-full py-2 flex justify-center items-center rounded-sm bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
                       <Mail className="w-4 h-4 mr-2" />
                       Send Message
-                    </Button>
+                    </a>
 
-                    <Button variant="outline" className="w-full">
+                    <a href="/NicoleHendah.pdf"  className=" w-fullpx-4 flex justify-center items-center py-2 rounded-sm bg-white border-gray-200 border-2 ">
                       <Download className="w-4 h-4 mr-2" />
                       Download CV
-                    </Button>
+                    </a>
 
                     <div className="pt-4">
                       <p className="text-sm text-gray-500 text-center mb-4">Connect with me</p>

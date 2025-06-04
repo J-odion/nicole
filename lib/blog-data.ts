@@ -20,7 +20,7 @@ export const blogPosts: BlogPost[] = [
       "Redefining Real Estate Marketing: How Data-Driven Storytelling Helped YADAN Ventures Double Its Customer Base in 6 Months",
     excerpt:
       "How a lean team, clear vision, and data-first approach helped grow our customer base by over 100% in just six months in Nigeria's competitive real estate market.",
-    publishedAt: "March 2024",
+    publishedAt: "March 2022",
     readTime: "8 min read",
     category: "PropTech",
     tags: ["Real Estate", "Data Analytics", "Growth Marketing", "Nigeria"],
@@ -86,7 +86,7 @@ At YADAN, I learned that innovation isn't always loud. Sometimes, it's quiet. It
     title: "The Science Behind SplitPay: How Data-Driven Campaigns Are Driving Fintech Adoption in Nigeria",
     excerpt:
       "Launching and scaling a deferred payment solution that achieved 65% growth in sign-ups through behavioral segmentation and psychology-driven campaigns.",
-    publishedAt: "January 2024",
+    publishedAt: "January 2021",
     readTime: "7 min read",
     category: "FinTech",
     tags: ["FinTech", "Behavioral Psychology", "User Segmentation", "Nigeria"],
