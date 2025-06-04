@@ -534,7 +534,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Email</h4>
-                        <p className="text-gray-600">nicole.hendah@email.com</p>
+                        <p className="text-gray-600">nicholehendah@gmail.com</p>
                       </div>
                     </div>
 
@@ -544,7 +544,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Phone</h4>
-                        <p className="text-gray-600">+1 (555) 123-4567</p>
+                        <p className="text-gray-600">+447399656211</p>
                       </div>
                     </div>
 
