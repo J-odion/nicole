@@ -166,7 +166,7 @@ In February 2020, I stood on the main stage of Social Media Week Lagos, West Afr
 
 More than 300 attendees — from startup founders to digital marketers to technologists — gathered for the session, one of the highest-attended in the Digital Strategy track. What united us wasn't just our love for tech, but a shared challenge: how do you use data to build trust in an environment where data is scarce, fragmented, or misunderstood?
 
-This article revisits the core of that talk — because in 2025, those lessons are still essential.
+This article revisits the core of that talk — because in 2020, those lessons are still essential.
 
 ## 1. Data Is Not Just Numbers — It's Culture
 
